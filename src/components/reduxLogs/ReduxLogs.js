@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import './ReduxLogs.css'
-import * as actionType from '../store/actions'
+import * as actionType from '../../store/actions'
 
 const ReduxLogs = ({ logged, log, deleteLog, index }) => {
   return (

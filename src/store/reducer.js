@@ -1,6 +1,5 @@
 import * as actionType from '../store/actions'
 
-
 const initialState = {
   isLogged: false,
   logs: []

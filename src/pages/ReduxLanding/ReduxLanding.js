@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import ReduxLogs from '../components/ReduxLogs'
-import * as actionType from '../store/actions'
+import ReduxLogs from '../../components/reduxLogs/ReduxLogs'
+import * as actionType from '../../store/actions'
 
 const ReduxLanding = ({ logged, toggleLogged, logs }) => {
   return (
